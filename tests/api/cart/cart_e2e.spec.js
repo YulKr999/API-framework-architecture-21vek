@@ -1,4 +1,4 @@
-import { test, expect } from '../../../api/fixtures/apiFixtures';
+import { test} from '../../../api/fixtures/apiFixtures';
 
 test.describe('Shopping Cart E2E', () => {
 
