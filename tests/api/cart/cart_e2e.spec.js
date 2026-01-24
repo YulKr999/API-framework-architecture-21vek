@@ -28,7 +28,7 @@ test.describe('Shopping Cart E2E', () => {
         });
 
         await test.step('Verify item is removed from cart', async () => {
-            await cartController.verifyProductNotInCart();
+            await cartController.verifyProductNotInCart(cartItemId);
         });
     });
 });
